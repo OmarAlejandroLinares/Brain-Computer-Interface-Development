@@ -5,3 +5,15 @@ The objective of this repositorie is to build a Brain Computer Interface that se
 Proyecto enfocado en el desarrollo de una Interfaz Cerebro Computadora (BCI) para el Laboratorio de Procesamiento Digital de Señales en el Centro de Investigación en Computación del Instituto Politécnico Nacional (CIC-IPN). 
 
 El dispositivo busca capturar 16 canales de EEG y enviarlos inalámbricamente mediante un ESP32 a una base de datos gestionada por un sitio Web propio del laboratorio para su posterior procesamiento mediante algoritmos de Procesamiento Digital de Señales y de Inteligencia Artificial para la clasificación en tareas de movimientos musculares (motor imagery).
+
+# Schedule of Group members
++ Lunes
+- Mari (13:00-16:00)
++ Martes
+- Mari (13:00-16:00)
++ Miércoles
+- Mari (10:00-16:00)
++ Jueves
+- Mari (13:00-16:00)
++ Viernes
+- Mari (11:00-16:00)
