@@ -8,12 +8,17 @@ El dispositivo busca capturar 16 canales de EEG y enviarlos inalámbricamente me
 
 # Schedule of Group members
 + Lunes
-- Mari (13:00-16:00)
+  - Mari (13:00-16:00)
+  - Alexis (14:00-19:00)
 + Martes
-- Mari (13:00-16:00)
+  - Mari (13:00-16:00)
+  - Alexis (13:00-16:00)
 + Miércoles
-- Mari (10:00-16:00)
+  - Mari (10:00-16:00)
+  - Alexis (15:00-19:00)
 + Jueves
-- Mari (13:00-16:00)
+  - Mari (13:00-16:00)
+  - Alexis (13:00-16:00)
 + Viernes
-- Mari (11:00-16:00)
+  - Mari (11:00-16:00)
+  - Alexis (12:00-17:00)
