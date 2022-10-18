@@ -6,7 +6,7 @@ Proyecto enfocado en el desarrollo de una Interfaz Cerebro Computadora (BCI) par
 
 El dispositivo busca capturar 16 canales de EEG y enviarlos inalámbricamente mediante un ESP32 a una base de datos gestionada por un sitio Web propio del laboratorio para su posterior procesamiento mediante algoritmos de Procesamiento Digital de Señales y de Inteligencia Artificial para la clasificación en tareas de movimientos musculares (motor imagery).
 
-# Schedule of Group members
+# Group members schedule
 + Lunes
   - Mari (13:00-16:00)
   - Alexis (14:00-19:00)
