@@ -32,7 +32,6 @@ Algunos conceptos clave que se deben saber son los siguientes:
   - Montaje bipolar: Se toma la resta entre dos electrodos, pueden ser antero-posteriores (sagitales) o transversos (coronales).
 
 # Desarrollo de la prueba
-En este proyecto, el dispositivo está siendo desarrollado para aplicaciones de intención de movimiento o mejor conocido como motor imargery, en el cuál se evalúa la relación de señales electroencefalográficas con las contracciones musuclares.
 
 
 
