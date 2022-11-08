@@ -7,6 +7,7 @@ Proyecto enfocado en el desarrollo de una Interfaz Cerebro Computadora (BCI) par
 El dispositivo busca capturar 16 canales de EEG y enviarlos inalámbricamente mediante un ESP32 a una base de datos gestionada por un sitio Web propio del laboratorio para su posterior procesamiento mediante algoritmos de Procesamiento Digital de Señales y de Inteligencia Artificial para la clasificación en tareas de movimientos musculares (motor imagery).
 
 # Protocolo
+## Procedimiento
 El procedimiento consiste en medir mediante electrodos la actividad eléctrica de la corteza cerebral. La señal es tan pequeña que debe ser amplificada y filtrada de manera analógica a través del componente electrónico de Texas Instruments; ADS1299. Este componente recoge por canal y de forma diferencial dos señales, dando como salida la resta entre ellas y su respectivo tratamiento analógico.
 
 La colocación de los electrodos sobre el cuero cabelludo está sujeta a un sistema de estandarización internacional 10-20, el cuál fue llamado así por la separación porcentual entre los electrodos en puntos reconocibles del cráneo. Estos puntos clave, a partir de los que se toma la distancia son:
@@ -22,7 +23,15 @@ Los pasos a seguir para preparar la captura de EEG a un paciente son los siguien
 2. Se cubre cada copa de oro del electrodo con una pasta que facilite la recepción de la señal a través del cuero cabelludo.
 3. Del otro extremo de los electrodos se conecta a un adaptador que entrará a la tarjeta ADS1299.
 
-puedan medir dieciseis puntos del cerebro, según el sistema de estandarización 10-20.
+## Tipos de montajes
+Algunos conceptos clave que se deben saber son los siguientes:
+- Electrodo: Elemento situado en el punto de registro y que conecta al dispositivo amplificador.
+- Derivación: Los dos electrodos que son conectados a un canal del amplificador.
+- Montaje: Conjunto de derivaciones, pueden ser monopolares o bipolares.
+  - Montaje monopolar: Los electrodos exploradores ocupan la posición 1 del amplifiador mientras que la posición 2 se fija a un electrodo relativamente inactivo o común para todos los canales.
+  - Montaje bipolar: Se toma la resta entre dos electrodos, pueden ser antero-posteriores (sagitales) o transversos (coronales).
+
+# Desarrollo de la prueba
 En este proyecto, el dispositivo está siendo desarrollado para aplicaciones de intención de movimiento o mejor conocido como motor imargery, en el cuál se evalúa la relación de señales electroencefalográficas con las contracciones musuclares.
 
 
